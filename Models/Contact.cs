@@ -10,7 +10,7 @@ namespace ContactList.Models
       private string _address;
 
 
-      private static List<Contact> _allContacts = new List<Contact> {};
+      private static List<Contact> _instances = new List<Contact> {};
 
       public Contact (string name, string phoneNumber, string address)
       {
@@ -19,9 +19,19 @@ namespace ContactList.Models
         _address = address;
       }
 
+      public void SetName(string newName)
+      {
+        _name = newName;
+      }
+
       public string GetName()
       {
         return _name;
+      }
+
+      public void SetPhoneNumber(string newPhoneNumber)
+      {
+        _phoneNumber = newPhoneNumber;
       }
 
       public string GetPhoneNumber()
@@ -29,14 +39,24 @@ namespace ContactList.Models
         return _phoneNumber;
       }
 
+      public void SetAddress(string newAddress)
+      {
+        _address = newAddress;
+      }
+
       public string GetAddress()
       {
         return _address;
       }
 
-      public static List<Contact> RetrieveAllContacts()
+      public static List<Contact> GetAll()
       {
-        return _allContacts;
+        return _instances;
+      }
+
+      public void Save()
+      {
+        _instances.Add(this);
       }
 
     }

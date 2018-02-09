@@ -6,23 +6,27 @@ namespace ContactList.Controllers
 {
   public class ContactListController : Controller
   {
-    [HttpGet("/contacts")]
+    [HttpGet("/")]
     public ActionResult ContactHome()
     {
-      List<Contact> allContacts = Contact.RetrieveAllContacts();
+      List<Contact> allContacts = Contact.GetAll();
       return View(allContacts);
     }
 
-    [HttpGet("/contacts/form")]
+    [HttpGet("/contactform")]
     public ActionResult ContactForm()
     {
       return View();
     }
 
-    [HttpPost("/address-add-new")]
-    public ActionResult SubmitAddress()
+    [HttpPost("/")]
+    public ActionResult Create()
     {
-      return View();
+      Contact newContact = new Contact (Request.Form["name"], Request.Form["phoneNumber"], Request.Form["address"]);
+      newContact.Save();
+      List<Contact> allContacts = Contact.GetAll();
+      return View("ContactHome", allContacts);
+
     }
 
     }

@@ -8,9 +8,9 @@
       <ul>
         @foreach(var contact in Model)
         {
-          <li><a href= "/contacts"> @Model.GetName() </a></li>
-          <li><a href= "/contacts"> @Model.GetPhoneNumber() </a></li>
-          <li><a href= "/contacts"> @Model.GetAddress() </a></li>
+          <li><a href= "/"> @contact.GetName() </a></li>
+          <li><a href= "/"> @contact.GetPhoneNumber() </a></li>
+          <li><a href= "/"> @contact.GetAddress() </a></li>
         }
       </ul>
   </body>
