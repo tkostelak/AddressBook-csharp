@@ -13,7 +13,7 @@ namespace ContactList.Controllers
       return View(allContacts);
     }
 
-    [HttpGet("/contactform")]
+    [HttpGet("/contacts/form")]
     public ActionResult ContactForm()
     {
       return View();
@@ -28,6 +28,13 @@ namespace ContactList.Controllers
       return View("ContactHome", allContacts);
 
     }
+
+    [HttpPost("/contacts/delete")]
+    public ActionResult ClearContactForm()
+      {
+        Contact.ClearAll();
+        return View();
+      }
 
     }
 
