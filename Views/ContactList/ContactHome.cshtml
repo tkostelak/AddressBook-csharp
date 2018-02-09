@@ -6,11 +6,11 @@
   <body>
     <h1>Address Book</h1>
       <ul>
-        @foreach(var Contact in Model)
+        @foreach(var contact in Model)
         {
-          <li><a href= "/contacts"> @Contact.GetName() </a></li>
-          <li><a href= "/contacts"> @Contact.GetPhoneNumber() </a></li>
-          <li><a href= "/contacts"> @Contact.GetAddress() </a></li>
+          <li><a href= "/contacts"> @Model.GetName() </a></li>
+          <li><a href= "/contacts"> @Model.GetPhoneNumber() </a></li>
+          <li><a href= "/contacts"> @Model.GetAddress() </a></li>
         }
       </ul>
   </body>
