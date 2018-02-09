@@ -1,0 +1,14 @@
+C:\Users\public\desktop\AddressBook\bin\Debug\netcoreapp1.1\ContactList.deps.json
+C:\Users\public\desktop\AddressBook\bin\Debug\netcoreapp1.1\ContactList.runtimeconfig.json
+C:\Users\public\desktop\AddressBook\bin\Debug\netcoreapp1.1\ContactList.runtimeconfig.dev.json
+C:\Users\public\desktop\AddressBook\obj\Debug\netcoreapp1.1\ContactList.csproj.CoreCompileInputs.cache
+C:\Users\public\desktop\AddressBook\obj\Debug\netcoreapp1.1\ContactList.AssemblyInfo.cs
+C:\Users\public\desktop\ContactList\bin\Debug\netcoreapp1.1\ContactList.deps.json
+C:\Users\public\desktop\ContactList\bin\Debug\netcoreapp1.1\ContactList.runtimeconfig.json
+C:\Users\public\desktop\ContactList\bin\Debug\netcoreapp1.1\ContactList.runtimeconfig.dev.json
+C:\Users\public\desktop\ContactList\obj\Debug\netcoreapp1.1\ContactList.csproj.CoreCompileInputs.cache
+C:\Users\public\desktop\ContactList\obj\Debug\netcoreapp1.1\ContactList.AssemblyInfo.cs
+C:\Users\public\desktop\ContactList\bin\Debug\netcoreapp1.1\ContactList.dll
+C:\Users\public\desktop\ContactList\bin\Debug\netcoreapp1.1\ContactList.pdb
+C:\Users\public\desktop\ContactList\obj\Debug\netcoreapp1.1\ContactList.dll
+C:\Users\public\desktop\ContactList\obj\Debug\netcoreapp1.1\ContactList.pdb

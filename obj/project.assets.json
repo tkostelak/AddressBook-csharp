@@ -9523,11 +9523,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\public\\desktop\\AddressBook\\AddressBook.csproj",
-      "projectName": "AddressBook",
-      "projectPath": "C:\\Users\\public\\desktop\\AddressBook\\AddressBook.csproj",
+      "projectUniqueName": "C:\\Users\\public\\desktop\\ContactList\\ContactList.csproj",
+      "projectName": "ContactList",
+      "projectPath": "C:\\Users\\public\\desktop\\ContactList\\ContactList.csproj",
       "packagesPath": "C:\\Users\\tkost\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\public\\desktop\\AddressBook\\obj\\",
+      "outputPath": "C:\\Users\\public\\desktop\\ContactList\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tkost\\AppData\\Roaming\\NuGet\\NuGet.Config"

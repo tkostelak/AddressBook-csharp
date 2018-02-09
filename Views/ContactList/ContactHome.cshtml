@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>contact-home</title>
+  </head>
+  <body>
+    <h1>Address Book</h1>
+      <ul>
+        @foreach(var Contact in Model)
+        {
+          <li><a href= "/contacts"> @Contact.GetName() </a></li>
+          <li><a href= "/contacts"> @Contact.GetPhoneNumber() </a></li>
+          <li><a href= "/contacts"> @Contact.GetAddress() </a></li>
+        }
+      </ul>
+  </body>
+</html>
