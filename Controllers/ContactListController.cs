@@ -36,6 +36,13 @@ namespace ContactList.Controllers
         return View();
       }
 
-    }
+    // [HttpGet("/{id}")]
+    // public ActionResult ContactSpecific(int id)
+    // {
+    //   Contact contact = Contact.Find(id);
+    //   return View(contact);
+    // }
 
   }
+
+}

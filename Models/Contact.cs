@@ -8,7 +8,7 @@ namespace ContactList.Models
       private string _name;
       private string _phoneNumber;
       private string _address;
-
+      // private int _id;
 
       private static List<Contact> _instances = new List<Contact> {};
 
@@ -17,6 +17,7 @@ namespace ContactList.Models
         _name = name;
         _phoneNumber = phoneNumber;
         _address = address;
+        // _id = _instances.Count;
       }
 
       public void SetName(string newName)
@@ -54,6 +55,11 @@ namespace ContactList.Models
         return _instances;
       }
 
+      // public int GetId()
+      // {
+      //   return _id;
+      // }
+
       public void Save()
       {
         _instances.Add(this);
@@ -64,6 +70,9 @@ namespace ContactList.Models
         _instances.Clear();
       }
 
-
+      // public static Contact Find(int searchId)
+      // {
+      //   return _instances[searchId];
+      // }
     }
-}
+  }

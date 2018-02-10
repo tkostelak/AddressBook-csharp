@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/styles.css">
     <title>contact-home</title>
   </head>
   <body>
@@ -9,9 +11,9 @@
         @foreach(var contact in Model)
         {
           <li>
-              <h3>Name: @contact.GetName()</h3>
-              <h3>Phone number: @contact.GetPhoneNumber()<h3>
-              <h3>Address: @contact.GetAddress()<h3>
+              <h3 class= "contactText"> @contact.GetName() </h3>
+              <h3 class="contactText"> @contact.GetPhoneNumber()</h3>
+              <h3 class="contactText"> @contact.GetAddress()</h3>
           </li>
         }
       </ul>
